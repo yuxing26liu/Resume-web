@@ -8,7 +8,7 @@ import plotly.express as px
 BASE        = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 CSS_FILE    = BASE / "styles" / "main.css"
 RESUME_PDF  = BASE / "assets" / "Yuxing Liu Resume .pdf"
-PROFILE_IMG = BASE / "assets" / "Visa Photo Copy.JPG"
+PROFILE_IMG = BASE / "assets" / "Visa photo copy.JPG"
 
 st.set_page_config(
     page_title="Digital CV | Yuxing Liu",
